@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="format-detection" content="telephone=no">
+   <title>（模写）ポジショニングメディア｜集客・広告戦略メディア「キャククル」</title>
+   <meta name="description" content="模写コーディングです。">
+   <link rel="icon" href="image/favicon.ico">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/index.css">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.min.js" defer></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+   <script src="script.js" defer></script>
+</head>
+
+<body>
+   <div class="body-wrap">
+
+      <!-- right-list-pc -->
+      <div id="r-list">
+         <div class="r-list-wrap">
+            <a class="r-list-box r-list-dl" href="#">
+               <img class="r-list-img" src="image/fileDL_icon.svg" alt="資料ダウンロード">
+               <p class="r-list-txt">資料<br>ダウンロード</p>
+            </a>
+            <a class="r-list-box r-list-mail" href="contact.html">
+               <img class="r-list-img" src="image/mail_icons_white.png" alt="メール">
+               <p class="r-list-txt">お問い合わせ</p>
+            </a>
+            <a class="r-list-box r-list-tel" href="#">
+               <img class="r-list-img" src="image/tel3whit_icons.png" alt="電話">
+               <p class="r-list-txt">03-5909-3031<br>平日10〜18時</p>
+            </a>
+         </div>
+         <span class="scroll-btn"></span>
+      </div>
+
+      <!-- header -->
+      <header id="header">
+         <div class="header-wrap">
+            <div class="header-logo">
+               <img src="image/logo.svg">
+            </div>
+            <div class="header-contact">
+               <div class="header-contact-mobile">
+                  <a class="header-tel" href="#" >
+                     <img src="image/tel3whit_icons.png" alt="電話">
+                  </a>
+                  <a class="header-mail" href="contact.html">
+                     <img src="image/mail_icons_white.png" alt="お問い合わせ">
+                  </a>
+               </div>
+               <div class="header-contact-pc">
+                  <div class="header-nav-pc">
+                     <a href="#">選ばれる理由</a>
+                     <a href="#">導入事例</a>
+                  </div>
+                  <a class="header-tel-pc" href="#">
+                     <p class="header-contact-txt">03-5909-3031</p>
+                  </a>
+                  <a class="header-mail-pc" href="contact.html">
+                     <p class="header-contact-txt">お問い合わせ</p>
+                  </a>
+               </div>
+            </div>
+            <div class="header-burger">
+               <img class="burger-menu" src="image/LPburger_menu.png" alt="メニュー">
+               <img class="burger-close" src="image/LPburger_close.png" alt="メニューを閉じる">
+            </div>
+         </div>
+      </header>
+
+      <!-- burger-nav -->
+      <div class="burger-nav">
+         <a class="burger-nav-list" href="#reason">選ばれる理由</a>
+         <a class="burger-nav-list" href="#works-ex">導入事例</a>
+      </div>
+
+      <!-- top -->
+      <section id="top">
+         <div class="top-wrap">
+            <div class="topTxt-wrap">
+               <h1 class="topTxt">
+                  <span class="topTxt01">貴社の強みを届けるべき人に届ける</span><br>
+                  <span class="topTxt02">ポジショニングメディアで<br><span>成</span><span>功</span><span>率</span>の高い集客を<br class="br-pc">実現します</span>
+               </h1>
+               <div class="topBtn-wrap-pc">
+                  <div class="btn-wrap">
+                     <p class="btn-ttl">1分で入力完了！集客事例を知る</p>
+                     <a class="download-btn" href="#">資料ダウンロードはこちら<span></span></a>
+                  </div>
+                  <div class="btn-wrap">
+                     <p class="btn-ttl">成約率重視の集客をはじめる</p>
+                     <a class="contact-btn" href="contact.html">お問い合わせはこちら<span></span></a>
+                  </div>
+               </div>
+            </div>
+            <div class="achieve-wrap">
+               <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide" id="slide01">
+                        <img class="achieve-img" src="image/lp_mv_spSlide01.png" alt="実績01">
+                     </div>
+                     <div class="swiper-slide" id="slide02">
+                        <img class="achieve-img" src="image/lp_mv_spSlide02.png" alt="実績02">
+                     </div>
+                  </div>
+               </div>
+               <div class="achieve-img-pc-wrap">
+                  <img class="achieve-img-pc" src="image/lp_mv_icons.png" alt="実績">
+               </div>
+               <div class="ribon">
+                  <p class="ribon-txt">制作実績：120業種以上*</p>
+               </div>
+               <div class="topBtn-wrap-mobile">
+                  <div class="btn-wrap">
+                     <p class="btn-ttl">1分で入力完了！集客事例を知る</p>
+                     <a class="download-btn" href="#">資料ダウンロードはこちら<span></span></a>
+                  </div>
+                  <div class="btn-wrap">
+                     <p class="btn-ttl">成約率重視の集客をはじめる</p>
+                     <a class="contact-btn" href="contact.html">お問い合わせはこちら<span></span></a>
+                  </div>
+               </div>
+               <p class="top-caption">※2012年より現在まで。当社独自の調査による。</p>
+            </div>
+            
+            
+         </div>
+      </section>
+
+      <!-- problem -->
+      <section id="problem">
+         <div class="problem-wrap">
+            <h2 class="sec-ttl sec-ttl-right01">Web集客でこんなお悩みありませんか？</h2>
+            <ul class="problem-box">
+               <li><div class="check-box"><i class="fas fa-check"></i></div><p>狙った<br>ターゲットを<span>集客できない</span></p></li>
+               <li><div class="check-box"><i class="fas fa-check"></i></div><p>集客できても常に<br><span>競合と比較されてしまう</span></p></li>
+               <li><div class="check-box"><i class="fas fa-check"></i></div><p>商談や成約に繋がらない<br>反響ばかりで<span>営業効率が悪い</span></p></li>
+               <li><div class="check-box"><i class="fas fa-check"></i></div><p>ニッチな商材なので有効な<br><span>集客手段が見つからない</span></p></li>
+               <li><div class="check-box"><i class="fas fa-check"></i></div><p>自社サービスを<br><span>市場に認知させる手段がない</span></p></li>
+            </ul>
+            <p class="problem-txt">ポジショニングメディアなら<br>全てすべて解決できます！</p>
+            <img class="arrow" src="image/allow_green_under.svg" alt="下矢印">
+         </div>
+      </section>
+
+      <!-- reason -->
+      <section id="reason">
+         <div class="reason-wrap">
+            <h2 class="sec-ttl">ポジショニングメディアが<br>選ばれる理由</h2>
+            <div class="reason-box-wrap">
+               <div class="reason-box fadeIn_item offs">
+                  <div>
+                     <div class="reason-box-number"><span>１</span></div>
+                     <div class="reason-box-ttl">成約につながる<br>親和性の高いユーザーを集客できる</div>
+                  </div>
+                  <div>
+                     <div class="reason-img-wrap">
+                        <img class="reason-img" src="image/point01_pic.png" alt="ポイント01">
+                     </div>
+                     <p class="reason-box-txt">自社商材と親和性の高いユーザーを集客、そしてなぜその製品がよいのか理解させた上で反響に至ります。
+                        そのため、反響率や案件化率の高さ、成約のしやすさが違う質の高い反響を獲得することができます。</p>
+                  </div>
+               </div>
+               <div class="reason-box02 reason-box fadeIn_item offs">
+                  <div>
+                     <div class="reason-box-number"><span>２</span></div>
+                     <div class="reason-box-ttl">特定市場において<br>自社のポジションを確立できる</div>
+                  </div>
+                  <div>
+                     <div class="reason-img-wrap">
+                        <img class="reason-img" src=" image/point02_pic.png" alt="ポイント02">
+                     </div>
+                     <p class="reason-box-txt">狙った市場に対して自社の特徴や他社との違いを浸透させることで、市場に自社の強みや得意分野を認知
+                        させることができ、他のweb施策との相乗効果も狙えます。</p>
+                  </div>
+               </div>
+               <div class="reason-box fadeIn_item offs">
+                  <div>
+                     <div class="reason-box-number"><span>３</span></div>
+                     <div class="reason-box-ttl">Web市場内のアプローチシェアの拡大</div>
+                  </div>
+                  <div>
+                     <div class="reason-img-wrap">
+                        <img class="reason-img" src="image/point03_pic.png" alt="ポイント03">
+                     </div>
+                     <p class="reason-box-txt">ホームページだけではなかなかアプローチできないWeb市場もポジショニングメディアならアプローチ可能です。<br class="br-pc">
+                        一見、市場が小さくともポジショニングメディアを導入することで有効市場をさらに広げることができます。</p>
+                  </div>
+               </div>
+               <div class="reason-box fadeIn_item offs">
+                  <div>
+                     <div class="reason-box-number"><span>４</span></div>
+                     <div class="reason-box-ttl">広告法規が厳しい業界でも集客可能</div>
+                  </div>
+                  <div>
+                     <div class="reason-img-wrap">
+                        <img class="reason-img" src="image/point04_pic.png" alt="ポイント04">
+                     </div>
+                     <p class="reason-box-txt">法規が厳しくなかなか集客チャネルが持てない医療・金融・保険業界等も対応可能です。<br>
+                        一般的な広告法規はもちろん、業界ならではのお悩みも柔軟に対応します。</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+      </section>
+
+      <!-- sec-btn01 -->
+      <section class="sec-btn">
+         <div class="btn-wrap">
+            <p class="btn-ttl">1分で入力完了！集客事例を知る</p>
+            <a class="download-btn" href="#">資料ダウンロードはこちら<span></span></a>
+         </div>
+      </section>
+
+      <!-- works-ex -->
+      <section id="works-ex">
+         <div class="work-ex-wrap">
+            <h2 class="sec-ttl sec-ttl-right01">ポジショニングメディアの導入効果</h2>
+            <div class="works-slide-wrap">
+               <div class="work-box work-box-pc">
+                  <img class="work-img" src="image/case_img01.jpg" alt="住宅系">
+                  <div class="work-wrap">
+                     <div class="work-ttl-wrap">
+                        <span></span>
+                        <p class="work-ttl">住宅系のお客様</p>
+                     </div>
+                     <div class="work-wrap-s">
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">課題</p>
+                           <p class="work-txt">総合住宅展示場にない工務店。得意とする客層はハウスメーカーを選んでしまう…</p>
+                        </div>
+                        <div class="work-tri">
+                           <div class="sircle">
+                              <div class="tri"></div>
+                           </div>
+                        </div>
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">効果</p>
+                           <p class="work-txt">高性能な住宅を建てるコスパの良い工務店として認知。高級系ハウスメーカーと比較するユーザーが集まった結果、<span>客単価を上げながら年間棟数が2倍</span>に拡大！</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="work-box work-box-pc">
+                  <img class="work-img" src="image/case_img02.jpg" alt="歯科系">
+                  <div class="work-wrap">
+                     <div class="work-ttl-wrap">
+                        <span></span>
+                        <p class="work-ttl">歯科系のお客様</p>
+                     </div>
+                     <div class="work-wrap-s">
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">課題</p>
+                           <p class="work-txt">周辺エリアにライバルが100院以上あり、露出をさせただけでは選ばれない…</p>
+                        </div>
+                        <div class="work-tri">
+                           <div class="sircle">
+                              <div class="tri"></div>
+                           </div>
+                        </div>
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">効果</p>
+                           <p class="work-txt">ターゲット層に選ばれる要素をアピール。一時は新患の来院者が5倍に。メディアの比較を見て納得してから来院する人が増え、<span>来院後即決する新患が増加！</span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="work-box work-box-pc">
+                  <img class="work-img" src="image/case_img03.jpg" alt="美容系">
+                  <div class="work-wrap">
+                     <div class="work-ttl-wrap">
+                        <span></span>
+                        <p class="work-ttl">美容医療系のお客様</p>
+                     </div>
+                     <div class="work-wrap-s">
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">課題</p>
+                           <p class="work-txt">おすすめしたい施術法の認知度が低く、お客様が集まらない…</p>
+                        </div>
+                        <div class="work-tri">
+                           <div class="sircle">
+                              <div class="tri"></div>
+                           </div>
+                        </div>
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">効果</p>
+                           <p class="work-txt">施術にふさわしいニーズを持つユーザーを集めるメディアを作り、集まったユーザーに向けて比較コンテンツを展開。<span>施術を指名した予約が増え</span>、3ヶ月待ちの状態に！</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="work-box work-box-pc">
+                  <img class="work-img" src="image/case_img04.jpg" alt="製造系">
+                  <div class="work-wrap">
+                     <div class="work-ttl-wrap">
+                        <span></span>
+                        <p class="work-ttl">製造系のお客様</p>
+                     </div>
+                     <div class="work-wrap-s">
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">課題</p>
+                           <p class="work-txt">新しい業界から集客したい。資料請求のほとんどは情報収集が目的で成約しづらい…</p>
+                        </div>
+                        <div class="work-tri">
+                           <div class="sircle">
+                              <div class="tri"></div>
+                           </div>
+                        </div>
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">効果</p>
+                           <p class="work-txt">専用メディアができたことでユーザー層の情報収集段階に寄与。<span>ポジショニングメディア経由の問合せは8割が商談</span>に進み、<span>商材理解が深く成約までの期間も短くなった！</span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="work-box work-box-pc">
+                  <img class="work-img" src="image/case_img05.jpg" alt="修理工事系">
+                  <div class="work-wrap">
+                     <div class="work-ttl-wrap">
+                        <span></span>
+                        <p class="work-ttl">修理工事系のお客様</p>
+                     </div>
+                     <div class="work-wrap-s">
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">課題</p>
+                           <p class="work-txt">特定の修理業務（屋根修理）を積極的に受注したい…</p>
+                        </div>
+                        <div class="work-tri">
+                           <div class="sircle">
+                              <div class="tri"></div>
+                           </div>
+                        </div>
+                        <div class="work-txt-box">
+                           <p class="work-txt-ttl">効果</p>
+                           <p class="work-txt">地域特化型の屋根修理専門メディアを立ち上げ。今すぐ修理をしてほしいユーザーが検索上位のメディアに流入。<span>台風の多い1ヶ月でこれまでの1年分の売り上げを獲得！</span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <p class="work-caption">※横にスライドしてご覧ください。＞</p>
+         </div>
+      </section>
+
+      <!-- sec-btn02 -->
+      <section class="sec-btn">
+         <div class="btn-wrap">
+            <p class="btn-ttl">成約率重視の集客をはじめる</p>
+            <a class="contact-btn" href="contact.html">お問い合わせはこちら<span></span></a>
+         </div>
+      </section>
+
+      <!-- qa -->
+      <section id="qa">
+         <div class="qa-wrap">
+            <h2 class="sec-ttl">よくあるご質問</h2>
+            <div class="qa-box">
+               <div class="question">
+                  <p class="q-number">Q1</p>
+                  <p class="q-txt">ポジショニングメディア導入費及び運用費はどれくらいかかりますか？</p>
+                  <div class="qa-open">
+                     <div class="qa-sircle">
+                        <div class="qa-line01"></div>
+                        <div class="qa-line02"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="answer">
+                  <div class="answer-wrap">
+                     <p class="a-icon">A</p>
+                     <p class="a-txt">恐れ入りますが狙うターゲットや市場規模、競合の参入状況によって大きく異なります。
+                        貴社の目標や予算と照らし合わせながら最適なご案内をさせていただければ幸いです。
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="qa-box">
+               <div class="question">
+                  <p class="q-number">Q2</p>
+                  <p class="q-txt">ポジショニングメディアの制作期間はどれくらいですか？</p>
+                  <div class="qa-open">
+                     <div class="qa-sircle">
+                        <div class="qa-line01"></div>
+                        <div class="qa-line02"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="answer">
+                  <div class="answer-wrap">
+                     <p class="a-icon">A</p>
+                     <p class="a-txt">お申し込み頂いてから約3ヶ月〜6ヶ月程度でポジショニングメディアを制作いたします。
+                        公開後、集客のための運用が始まります。お急ぎの場合でも対応できるよう調整いたします
+                        ので、一度ご相談ください。
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="qa-box">
+               <div class="question">
+                  <p class="q-number">Q3</p>
+                  <p class="q-txt">ポジショニングメディアの申込みから導入の流れを知りたい</p>
+                  <div class="qa-open">
+                     <div class="qa-sircle">
+                        <div class="qa-line01"></div>
+                        <div class="qa-line02"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="answer">
+                  <div class="answer-wrap">
+                     <p class="a-icon">A</p>
+                     <p class="a-txt">お申し込み頂いてから、戦略設計、ヒアリング、メディア設計制作を行います。
+                        サイト公開までスピーディーかつお客様の負担が極力少なくなるよう進行しますので、
+                        一般的なサイト制作と比べて手間がかかりません。
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="qa-box">
+               <div class="question">
+                  <p class="q-number">Q4</p>
+                  <p class="q-txt">ポジショニングメディア導入後は<br>コンサルティングやフォローはしてもらえますか？</p>
+                  <div class="qa-open">
+                     <div class="qa-sircle">
+                        <div class="qa-line01"></div>
+                        <div class="qa-line02"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="answer">
+                  <div class="answer-wrap">
+                     <p class="a-icon">A</p>
+                     <p class="a-txt">ポジショニングメディア導入後はご希望に合わせて定期的にレポーティングやオンライン
+                        ミーティングを行います。ご導入いただくプランによっては集客効果を最大化させるべく
+                        コンサルティングをさせていただきます。
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="qa-box">
+               <div class="question">
+                  <p class="q-number">Q5</p>
+                  <p class="q-txt">ランディングページやホームページの制作運用、<br>
+                     Web集客全般を見てもらえますか？
+                  </p>
+                  <div class="qa-open">
+                     <div class="qa-sircle">
+                        <div class="qa-line01"></div>
+                        <div class="qa-line02"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="answer">
+                  <div class="answer-wrap">
+                     <p class="a-icon">A</p>
+                     <p class="a-txt">対応可能ですので、ぜひご相談ください。
+                        反響獲得だけでない、あくまでも成約につながるユーザーの集客を支援してきた知見を元に
+                        プランニングをいたします。また、集客や売上アップに役立つツールがございましたら併せて
+                        ご案内させていただきます。
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- sec-btn03 -->
+      <section class="sec-btn sec-btn03">
+         <div class="btn-wrap">
+            <p class="btn-ttl">1分で入力完了！集客事例を知る</p>
+            <a class="download-btn" href="#">資料ダウンロードはこちら<span></span></a>
+         </div>
+         <div class="btn-wrap">
+            <p class="btn-ttl">成約率重視の集客をはじめる</p>
+            <a class="contact-btn" href="contact.html">お問い合わせはこちら<span></span></a>
+         </div>
+      </section>
+
+      <!-- company -->
+      <section id="company">
+         <div class="company-wrap">
+            <h2 class="sec-ttl">ポジショニングメディアの全研本社<br>会社概要</h2>
+            <p class="company-txt">当社は、「ITと語学」を軸に事業展開を行ってまいりました。<br>
+               ポジショニングメディアをはじめとするコンテンツマーケティング領域では10年以上の実績を持ち、<br class="br-pc">
+               様々な業界のお客様のブランディングや売り上げ拡大の支援をさせていただきました。<br>
+               人材不足となるこれからの未来に向けて、届けるべき人に届けるポジショニングメディアによって、<br class="br-pc">
+               成約率の向上やリードタイムの短縮を通じて営業生産性を向上させるお役に立てることを目指しています。
+            </p>
+            <table class="company-table">
+               <tr>
+                  <th>社名</th>
+                  <td>全研本社株式会社（Zenken Corporation）</td>
+               </tr>
+               <tr>
+                  <th>本社所在地</th>
+                  <td>〒160-8361 <br class="br-pc">東京都新宿区西新宿6-18-1住友不動産新宿セントラルパークタワー18・19階</td>
+               </tr>
+               <tr>
+                  <th>創業</th>
+                  <td>1975年（昭和50年）5月2日</td>
+               </tr>
+               <tr>
+                  <th>資本金</th>
+                  <td>56,050,000円</td>
+               </tr>
+               <tr>
+                  <th>従業員数</th>
+                  <td>914名（令和3年3月現在）</td>
+               </tr>
+            </table>
+         </div>
+      </section>
+
+      <!-- footer -->
+      <footer id="footer">
+         <div class="footer-wrap">
+            <div class="f-wrap-l-01">
+               <div class="f-cv-btn-wrap">
+                  <a class="f-cv-btn f-cv-btn-pc" href="contact.html">
+                     <p>お問い合わせ</p>
+                     <span></span>
+                  </a>
+                  <a class="f-cv-btn f-cv-btn-dl" href="#">
+                     <p>資料ダウンロード</p>
+                     <span></span>
+                  </a>
+                  <a class="f-cv-btn" href="#">
+                     <p>メルマガ登録</p>
+                     <span></span>
+                  </a>
+                  <a class="f-tel-box-pc" href="#">
+                     <span class="f-tel-pc-txt01">今スグ問い合わせたい方</span>
+                     <span class="f-tel-pc-txt02"><i class="fas fa-phone-alt"></i>03-5909-3031</span>
+                  </a>
+               </div>
+               <div class="f-sns-wrap">
+                  <a class="f-sns" href="https://www.facebook.com/Zareamarketing/"><img src="image/ico-fb.svg" alt="Facebook"></a>
+                  <a class="f-sns" href="https://twitter.com/attract_zk"><img src="image/ico-twitter.svg" alt="Twitter"></a>
+                  <a class="f-sns" href="https://page.line.me/193ibskn?openQrModal=true"><img src="image/ico-line.svg" alt="LINE"></a>
+               </div>
+               <div class="f-link-wrap-mobile">
+                  <a href="#">＞ サービス</a>
+                  <a href="#">プライバシーポリシー<span></span></a>
+               </div>
+            </div>
+            <div class="f-wrap-l-02">
+               <a class="f-p-wrap" href="#">
+                  <img class="f-p-img" src="image/21001344_02_200_JP.png" alt="プライバシーマーク">
+                  <p class="f-p-txt">当社は一般財団法人日本情報経済社会推進協会（JIPDEC）より個人情報について適切な取り扱いが行われている企業に与えられる「プライバシーマーク」を取得しています。</p>
+               </a>
+               <div class="f-c-wrap">
+                  <p class="f-company-link-txt">運営会社：<a href="#">全研本社株式会社</a></p>
+                  <small class="copyright">Copyright(C) ZENKEN CORPORATION</small>
+               </div>
+            </div>
+            <div class="f-fixed-wrap">
+               <a class="f-contact" href="contact.html">
+                  <p class="f-fixed-txt">貴社課題に合わせた<br>戦略をご案内します<br><span>お問い合わせフォーム</span></p>
+               </a>
+               <a class="f-tel" href="#">
+                  <p class="f-fixed-txt">お電話でも受付中！<br><span><i class="fas fa-phone-alt"></i>03-5909-3031</span><br>平日10〜19時対応</p>
+               </a>
+            </div>
+         </div>
+      </footer>
+   </div>
+</body>
+</html>
